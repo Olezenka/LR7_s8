@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BuilderBurger\BuilderBurger.cs" />
+    <Compile Include="BuilderBurger\BurgerDirector.cs" />
     <Compile Include="BuilderBurger\IBurgerBuilder.cs" />
     <Compile Include="DBCon\Burgers.cs" />
     <Compile Include="DBCon\Model1.cs" />
