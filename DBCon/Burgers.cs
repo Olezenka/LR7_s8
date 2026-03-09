@@ -19,5 +19,14 @@ namespace LR7_s8.DBCon
         public bool? Tomato { get; set; }
 
         public bool? Pickles { get; set; }
+
+        public Burgers() 
+        {
+            Cheese = false;
+            Bacon = false;
+            Letuce = false;
+            Tomato = false;
+            Pickles = false;
+        }
     }
 }
