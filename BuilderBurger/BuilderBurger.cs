@@ -12,6 +12,11 @@ namespace LR7_s8.BuilderBurger
     {
         private Burgers _burger;
 
+        public BurgerBuilder()
+        {
+            _burger = new Burgers();
+        }
+
         IBurgerBuilder IBurgerBuilder.AddBacon()
         {
             _burger.Bacon = true;
